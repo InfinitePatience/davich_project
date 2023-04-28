@@ -1,0 +1,21 @@
+body{overflow-x: hidden; font-size:1em; font-family:'Noto Sans','Noto Sans KR',Helvetica,sans-serif; color:#333;}
+a{text-decoration:none; color:#333;}
+
+/* layout */
+
+/* layout */
+#wrap{width:100%;}
+#header{z-index:40;position: absolute; width:100%; height:80px; transition: all .5s ease 0s;}
+    .header_inner{position: relative; display:flex; justify-content: space-between; align-items: center; 
+                  margin:0 auto; width:73vw; height:80px;}
+.content1{width:100%;} 
+.content2{width:100%;} 
+.content3{width:100%;} 
+.content4{width:100%;} 
+.content5{width:100%;} 
+.content6{width:100%;} 
+.content7{width:100%;}
+#footer{}
+.foot_inner{}
+ .foot_top{}
+ .foot_bottom{}

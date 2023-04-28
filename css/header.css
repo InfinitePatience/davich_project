@@ -1,0 +1,49 @@
+/* header */
+#header:hover{background:#fff; border-bottom:1px solid #ddd;}
+#header:hover h1.logo a{background: url(../img/logo-all.png) no-repeat 0 0; background-size: cover;}
+#header:hover nav.gnb>ul>li>a{color:#000;}
+#header:hover .top_menu>ul>li:first-child{background:#000; border-radius:15px;}
+#header:hover .top_menu>ul>li:last-child{background:#0056aa; border-radius:15px;}
+
+/* header */
+/* 로고 */
+
+h1.logo{}
+h1.logo>a{display:block;  width:175px; height:40px; background: url(../img/logo-all.png) no-repeat 0 0; 
+   background-size: cover; background-position-x:-181px;
+   text-indent:-9999px; overflow:hidden;}
+   
+/* gnb */
+/* 주메뉴 */
+nav.gnb{}
+nav.gnb>ul{width:100%; height:80px; display:flex; justify-content:center;
+font-family:'Public Sans', sans-serif;}
+
+nav.gnb>ul>li>a{display:block; font-size:17px; color:#fff; padding:32px 20px;}
+#header nav.gnb>ul>li:hover>a {color:#0056AA;}
+/* #header:hover>.gnb>ul{border-bottom:1px solid #d2d2d2;} */
+#header nav.gnb>ul>li:hover:after{content:''; display:block; width:100%; height:2px; margin-top:-2px; background-color: #0056aa; transform: translateY(-2px);}
+/* border-bottom:1px solid #b4b4b4; */
+nav.gnb>ul>li>div{display:none; position:absolute; left:0; width:100%; top:80px; height:80px;}
+nav.gnb>ul>li.on>div{display:block;}
+
+nav.gnb>ul>li>div>ul{display:flex; justify-content: center; align-items: center;}
+nav.gnb>ul>li>div>ul>li{display:block; margin:27.5px 40px 0 0; font-size: 17px; font-weight: 500; font-family:'Noto Sans KR', sans-serif;;}
+nav.gnb>ul>li>div>ul>li:hover>a {color: #0056AA;}
+
+/* nav.gnb>ul>li:nth-child(6)>div{display:block;} */
+
+nav.gnb>ul>li:nth-of-type(1)>div>ul>li{transform: translateX(-80px);}
+nav.gnb>ul>li:nth-of-type(2)>div>ul>li{transform: translateX(-185px);}
+nav.gnb>ul>li:nth-of-type(3)>div>ul>li{transform: translateX(-63px);}
+nav.gnb>ul>li:nth-of-type(4)>div>ul>li{transform: translateX(120px);}
+nav.gnb>ul>li:nth-of-type(5)>div>ul>li{transform: translateX(200px);}
+nav.gnb>ul>li:nth-of-type(6)>div>ul>li{transform: translateX(160px);}
+
+/* 탑메뉴 */
+.top_menu{width:20%;}
+.top_menu>ul{display:flex; align-items: center; height:80px;}
+.top_menu>ul>li>a{display:block; padding:5px 15px; font-size: 14px; color:#fff;}
+.top_menu>ul>li:first-child{margin-right:15px;}
+.top_menu>ul>li:last-child>a>img{padding-left:5px; padding-bottom:5px}
+
