@@ -164,7 +164,7 @@ body{background:url(../img/guide.PNG) no-repeat 50% -20%;}
 
 /* content5 */
 @media screen and (max-width:768px){
-  .content5 .content5_inner section a span{font-size:20px;}
+  .content5 .content5_inner article a span{font-size:20px;}
 }
 
 /* content6 */
