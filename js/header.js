@@ -50,7 +50,6 @@ const body = document.querySelector("body")
 const bg = document.querySelector(".bg")
 
 drawerBtn.addEventListener('click', e => {
-  e.preventDefault();
   mobile.classList.add("on")
   body.classList.add("on")
   bg.classList.add("on")
