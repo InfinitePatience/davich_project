@@ -75,7 +75,6 @@ for(let i=0; i<slideRoll.length; i++){
 // 배너 멈추고 이미지 바뀌고
 // 배너 재생 이미지 바뀌고
 
-
 });
 
 // content7 오토배너
