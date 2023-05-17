@@ -20,7 +20,8 @@
     #header.drop{position:fixed; background-color:#fff;}
     #header.drop nav.gnb>ul>li>a{color:#111;}
     #header.drop .top_menu>ul>li:first-child{background:#000; border-radius:15px;}
-    #header.drop .header_wrap .header_inner .gnb>ul{position:absolute; background:url(../img/iconmonstr-menu-lined-mobile.png)no-repeat 0 0; background-size:40px;}
+    #header.drop .header_wrap .header_inner .gnb>ul{position:absolute; background:url(../img/iconmonstr-menu-lined-mobile.png)no-repeat 0 0; background-size:40px; cursor:pointer;}
+    #header .header_wrap .header_inner .gnb>ul>li{display:none;}
     #header.drop .header_wrap .header_inner .top_menu ul>li:last-child>a{background:url(../img/iconmonstr-shopping-bag-mobile.png) no-repeat 0 0; background-size:30px;}
     #header.drop .header_wrap .header_inner .top_menu ul>li:last-child{background-color:transparent;}
     #header.drop .header_wrap .header_inner .top_menu ul>li:first-child>a{background:url(../img/iconmonstr-map-mobile.png) no-repeat 0 0; background-size:30px;}
@@ -40,8 +41,8 @@
     .header_wrap .header_inner h1 a{position:absolute; top:25%; left:0; right:0; margin:0 auto;}
   
     #header .header_wrap .header_inner .gnb{width:100px; height:100px;}
-    #header .header_wrap .header_inner .gnb>ul{position:absolute; background:url(../img/iconmonstr-menu-lined.png) no-repeat 0 0; left:5%; top:25%; width:40px; height:50%; background-size:40px;text-indent:-9999px; overflow: hidden;}
-  
+    #header .header_wrap .header_inner .gnb>ul{position:absolute; background:url(../img/iconmonstr-menu-lined.png) no-repeat 0 0; left:5%; top:25%; width:40px; height:50%; background-size:40px;text-indent:-9999px; overflow: hidden; cursor:pointer;}
+    #header .header_wrap .header_inner .gnb>ul>li{display:none;}
     .header_wrap .header_inner .top_menu{position:absolute; right:-70px;}
     .header_wrap .header_inner .top_menu ul>li:first-child>a{background:url(../img/iconmonstr-map.png) no-repeat 0 0;height:50%; width:10px; background-size:30px; text-indent:-9999px; overflow:hidden;}
     #header:hover .header_wrap .header_inner .top_menu ul>li:first-child{background-color:transparent;}
